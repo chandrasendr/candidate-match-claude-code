@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Playwright
+/playwright-report/
+/playwright/.cache/
